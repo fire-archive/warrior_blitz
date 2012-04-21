@@ -34,6 +34,14 @@ def loadUnitImages():
     factions = ('blue',)
     units = ('swordsman',)
     
+    names = []
+    
+    for fac in factions:
+        for unit in units:
+            names.append(fac+'-'+unit)
+            
+        
+    
     src_image = None
     frame_rect = pygame.Rect(0,0,48,32)
     

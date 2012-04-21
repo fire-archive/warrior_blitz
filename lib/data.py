@@ -31,7 +31,7 @@ def loadUnitImages():
         return imagesLoaded['_unit']
         
     
-    factions = ('blue',)
+    factions = ('blue','red',)
     units = ('swordsman',)
     
     names = []

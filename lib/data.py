@@ -50,6 +50,19 @@ def loadUnitImages():
     for name in names:
         src_image = loadImage(os.path.join('unit',(name+'.png')))
         
+        frames = []
+        frame_rect.topleft = 0,0
+        
+        while frame_rect.bottom <= src_image.get_height():
+            
+            while frame_rect.right <= src_image.get_width():
+                frames.append(src_image.subsurface(frame_rect))
+                frame_rect.left = frame_rect.right
+                
+            
+            frame_rect.left = 0
+            frame_rect.top = frame_rect.bottom
+            
         
     
     imagesLoaded['_unit'] = images

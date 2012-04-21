@@ -35,7 +35,7 @@ def loadUnitImages():
     units = ('swordsman',)
     
     src_image = None
-    frame_rect = pygame.Rect(0,0,36,24)
+    frame_rect = pygame.Rect(0,0,48,32)
     
     images = {}
     

@@ -53,6 +53,8 @@ def loadUnitImages():
         frames = []
         frame_rect.topleft = 0,0
         
+        anims = {}
+        
         while frame_rect.bottom <= src_image.get_height():
             
             while frame_rect.right <= src_image.get_width():
@@ -63,6 +65,13 @@ def loadUnitImages():
             frame_rect.left = 0
             frame_rect.top = frame_rect.bottom
             
+        
+        anims['idle'] = [0]
+        anims['walk'] = [0,1,2,1,0,3,4,3]
+        
+        # TODO: Attack animation
+        # TODO: Death animation
+        # TODO: Cheer animation
         
     
     imagesLoaded['_unit'] = images

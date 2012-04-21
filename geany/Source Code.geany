@@ -1,0 +1,27 @@
+
+[indentation]
+indent_width=4
+indent_type=0
+indent_hard_tab_width=8
+detect_indent=false
+indent_mode=2
+
+[project]
+name=Warrior Blitz Source Code (LD23)
+base_path=/home/henry/Game-Devel/LD48/LD 23/Warrior Blitz/lib
+description=
+
+[long line marker]
+long_line_behaviour=1
+long_line_column=72
+
+[files]
+current_page=4
+FILE_NAME_0=100;Python;0;16;0;1;1;/home/henry/Game-Devel/LD48/LD 23/Warrior Blitz/run_game.py;0;4
+FILE_NAME_1=3956;Python;0;16;0;1;1;/home/henry/Game-Devel/LD48/LD 23/Warrior Blitz/lib/a_star.py;0;4
+FILE_NAME_2=0;Python;0;16;0;1;1;/home/henry/Game-Devel/LD48/LD 23/Warrior Blitz/lib/constants.py;0;4
+FILE_NAME_3=120;Python;0;16;0;1;1;/home/henry/Game-Devel/LD48/LD 23/Warrior Blitz/lib/data.py;0;4
+FILE_NAME_4=223;Python;0;16;0;1;1;/home/henry/Game-Devel/LD48/LD 23/Warrior Blitz/lib/game.py;0;4
+FILE_NAME_5=542;Python;0;16;0;1;1;/home/henry/Game-Devel/LD48/LD 23/Warrior Blitz/lib/main.py;0;4
+FILE_NAME_6=58;Python;0;16;0;1;1;/home/henry/Game-Devel/LD48/LD 23/Warrior Blitz/lib/menu.py;0;4
+FILE_NAME_7=143;Python;0;16;0;1;1;/home/henry/Game-Devel/LD48/LD 23/Warrior Blitz/lib/util.py;0;4

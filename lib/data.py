@@ -47,6 +47,11 @@ def loadUnitImages():
     
     images = {}
     
+    for name in names:
+        src_image = loadImage(os.path.join('unit',(name+'.png')))
+        
+        
+    
     imagesLoaded['_unit'] = images
     return images
     

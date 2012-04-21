@@ -66,13 +66,15 @@ def loadUnitImages():
             frame_rect.top = frame_rect.bottom
             
         
-        anims['idle'] = [0]
-        anims['walk'] = [0,1,2,1,0,3,4,3]
-        
-        # TODO: Attack animation
-        # TODO: Death animation
-        # TODO: Cheer animation
-        
+    
+    anims['idle'] = [0]
+    anims['walk'] = [0,1,2,1,0,3,4,3]
+    
+    # TODO: Attack animation
+    # TODO: Death animation
+    # TODO: Cheer animation
+    
+    imagesLoaded['_unit']['_anims'] = anims
     
     imagesLoaded['_unit'] = images
     return images
